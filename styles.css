@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    color: darkcyan;
+    background-color: lightgrey;  
+    align-content: baseline;
+}
+
+h1 {
+    font-weight:550;
+    font-size: 36px;
+    text-align: center;
+    justify-content: center;
+    color: darkcyan;
+}
+
+a {
+    font-style: italic;
+    color: darkcyan;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+p {
+    font-weight: bold;
+    margin: auto;  
+}
+
+h1, h3 {
+    font-family: "Garamond";
+    font-weight: bold;
+    font-style: normal;
+    color: brown;
+}
+
+ul {
+    list-style-type: circle;
+    color: darkcyan; 
+    margin: 0%; 
+}
+
+ol {
+    list-style-type: upper-roman;
+    color: darkcyan;
+}
